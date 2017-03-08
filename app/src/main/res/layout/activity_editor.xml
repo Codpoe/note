@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/activity_editor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.codpoe.note.editor.EditorActivity">
+
+    <android.support.design.widget.AppBarLayout
+        app:theme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/editor_toolbar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_arrow_back_main_24dp"
+            app:titleTextColor="@color/colorMain"
+            app:title="@string/edit"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/editor_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="6dp"
+        android:background="@color/theme_light_bg"
+        android:clickable="true"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        app:behavior_peekHeight="48dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                android:id="@+id/modify_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="16dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorMain"
+                tools:text="最近修改于今天 17:32"/>
+
+            <me.codpoe.library.ArrowView
+                android:id="@+id/arrow_view"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:arrow_color="@color/colorMain"
+                app:arrow_width="2dp"
+                app:arrow_orientation="TOP_TO_BOTTOM"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:textColor="@color/colorMain"
+            android:text="@string/theme"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/theme_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

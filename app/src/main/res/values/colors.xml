@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#E0E0E0</color>
+    <color name="colorAccent">#759FBD</color>
+    <color name="colorMain">#759FBD</color>
+
+    <color name="snote_tab_text">#888888</color>
+
+    <color name="item_snote_title">#333333</color>
+    <color name="item_snote_content">#333333</color>
+
+    <color name="stub_text">#888888</color>
+
+    <color name="light_text">#B8BFC6</color>
+    <color name="dark_text">#333333</color>
+
+    <color name="theme_light_status_bar">#E0E0E0</color>
+    <color name="theme_light_bg">#F5F5F5</color>
+    <color name="theme_light_text">#333333</color>
+
+    <color name="theme_dark_status_bar">#282C30</color>
+    <color name="theme_dark_bg">#363B40</color>
+    <color name="theme_dark_text">#B8BFC6</color>
+
+    <color name="theme_wood_status_bar">#D6C7A2</color>
+    <color name="theme_wood_bg">#F3E3B9</color>
+
+    <color name="theme_paper_status_bar">#C7B98A</color>
+    <color name="theme_paper_bg">#E6D59F</color>
+    <color name="theme_paper_edit_bg">#E2CD8D</color>
+
+    <color name="theme_pink_status_bar">#E2C7CC</color>
+    <color name="theme_pink_bg">#FDDEE4</color>
+    <color name="theme_pink_edit_bg">#FFEBEF</color>
+
+    <color name="theme_purple_status_bar">#D6C5DF</color>
+    <color name="theme_purple_bg">#F3DFFD</color>
+    <color name="theme_purple_edit_bg">#F6EBFC</color>
+
+    <color name="theme_green_status_bar">#93DCC7</color>
+    <color name="theme_green_bg">#AAFFE6</color>
+    <color name="theme_green_edit_bg">#B8FFEA</color>
+
+    <color name="theme_cyan_status_bar">#A3DCD8</color>
+    <color name="theme_cyan_bg">#BBFCF8</color>
+    <color name="theme_cyan_edit_bg">#C9FFFC</color>
+
+</resources>

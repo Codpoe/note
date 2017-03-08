@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/memo"
+            android:title="@string/bianqian"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/note"
+            android:title="@string/biji"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"/>
+
+    </group>
+
+</menu>
